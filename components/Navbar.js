@@ -18,6 +18,9 @@ export function Navbar() {
           <a href="#bikes" className="transition hover:text-white">
             Bikes
           </a>
+          <a href="#assistant" className="transition hover:text-white">
+            AI
+          </a>
           <a href="#about" className="transition hover:text-white">
             About
           </a>

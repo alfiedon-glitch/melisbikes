@@ -1,6 +1,7 @@
 import { Navbar } from "../components/Navbar";
 import { Hero } from "../components/Hero";
 import { BikeCard } from "../components/BikeCard";
+import { AIChat } from "../components/AIChat";
 import { bikes } from "../lib/data";
 
 export default function Home() {
@@ -17,6 +18,10 @@ export default function Home() {
               <BikeCard key={bike.id} bike={bike} />
             ))}
           </div>
+        </section>
+
+        <section id="assistant" className="p-10 max-w-6xl mx-auto">
+          <AIChat />
         </section>
 
         <section id="about" className="p-10 max-w-6xl mx-auto">
